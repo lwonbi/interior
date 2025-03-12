@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Sunflower:wght@500;700&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>인테리어</title>
+</head>
+<body>
+    <!-- 내비게이션 바 시작 -->
+    <nav class="navbar navbar-expand-md bg-body-tertiary fixed-top ">
+      <div class="container-fluid">
+        <a href="./index.html" class="logo-font link-dark text-decoration-none fs-5">
+          <img src="./images/logo.png" alt="logo" class="img-fluid ">이젠 인테리어
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menubarContent" aria-controls="menubarContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="menubarContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./profile.html">프로필</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  인테리어
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./private-interior.html">개인 공간</a></li>
+                  <li><a class="dropdown-item" href="./business-interior.html">비즈니스 공간</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="./contact.html">연락처</a>
+              </li>
+            </ul>
+          </div>
+      </div>
+    </nav>
+    <!-- 내비게이션 바 끝 -->
+    
+    <!--메인 시작-->
+    <main class="container my-5">
+        <div class="row py-5">
+            <!--프로필 바 섹션 시작-->
+            <section class="col-md-5 col-lg-3 order-2 order-md-1">
+                <div class="bg-dark text-white text-center rounded p-3 my-3">
+                    <img src="./images/main-profile.jpg" alt="main_profile" class="img-fluid rounded-pill p-2">
+                    <h2 class="py-3 fs-4">이젠 Kim</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt beatae dicta porro rem. Optio officiis, vel voluptatem.</p>
+                    <div class="py-3 fs-4 d-flex justify-content-evenly">
+                        <a class="link-danger " href="#" target="_blank"><i class="bi bi-youtube"></i></a>
+                        <a class="link-primary " href="#" target="_blank"><i class="bi bi-facebook"></i></a>
+                        <a class="link-warning " href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <!--자격사항 리스트 시작-->
+                <div class="card text-center my-3 border-dark" >
+                    <div class="card-header text-bg-dark rounded-top">
+                      <h5 class="fs-5 m-1">자격사항</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">자격사항1</li>
+                      <li class="list-group-item">자격사항2</li>
+                      <li class="list-group-item">자격사항3</li>
+                    </ul>
+                </div>
+                <!--자격사항 리스트 끝-->
+                <!--경력사항 리스트 시작-->
+                <div class="card text-center my-3 border-dark" >
+                    <div class="card-header text-bg-dark rounded-top">
+                      <h5 class="fs-5 m-1">경력사항</h5>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                      <li class="list-group-item">
+                        <p class="text-muted m-1">2000-2022</p>
+                        <p class="fw-bold m-1">Lorem, ipsum dolor.</p>
+                      </li>
+                      <li class="list-group-item">
+                        <p class="text-muted m-1">2000-2022</p>
+                        <p class="fw-bold m-1">Lorem, ipsum dolor.</p>
+                      </li>
+                      <li class="list-group-item">
+                        <p class="text-muted m-1">2000-2022</p>
+                        <p class="fw-bold m-1">Lorem, ipsum dolor.</p>
+                      </li>
+                      <li class="list-group-item">
+                        <p class="text-muted m-1">2000-2022</p>
+                        <p class="fw-bold m-1">Lorem, ipsum dolor.</p>
+                      </li>
+                    </ul>
+                </div>
+                <!--경력사항 리스트 끝-->
+            </section>
+            <!--프로필 바 섹션 끝-->
+            <!--포트폴리오 섹션 시작-->
+            <section class="col-md-7 col-lg-9 order-1 order-md-2">
+              <!--연락처 섹션 시작-->
+              <div class="text-center pt-3 pb-5 row">
+                <div class="col-lg-9 mx-auto pb-3">
+                  <h2 class="fw-bold pb-3">Contact</h2>
+                  <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis voluptatibus atque quisquam illum magni quae cum nostrum et quaerat nesciunt!</p>
+                  <!-- <div class="contact_bg text-white fs-5">
+                    <h4 class="py-4">
+                      <i class="bi bi-telephone-fill mx-4"></i> 010-000-0000
+                    </h4>
+                    <div class="bg_white py-2"></div>
+                    <h4 class="py-4">
+                      <i class="bi bi-envelope-open-heart mx-4"></i> contact@naver.com
+                    </h4>
+                    <div class="bg_white py-2"></div>
+                    <h4 class="py-4">
+                      <i class="bi bi-shop mx-4"></i> 지하철 8호선 모란역 2번 출구
+                    </h4>
+                  </div>  아래로 수정-->
+                  <div class="contact_bg py-4 mt-3">
+                    <p class="fs-4 fw-bold text-white mb-0 logo-font"> <i class="bi bi-telephone-fill me-3 me-lg-5"></i> 010-000-0000</p>
+                  </div>
+                  <div class="contact_bg py-4 mt-3">
+                    <p class="fs-4 fw-bold text-white mb-0 logo-font"> <i class="bi bi-envelope-open-heart me-3 me-lg-5"></i> contact@naver.com</p>
+                  </div>
+                  <div class="contact_bg py-4 mt-3">
+                    <p class="fs-4 fw-bold text-white mb-0 logo-font"> <i class="bi bi-shop me-3 me-lg-5"></i> 지하철 8호선 모란역 2번 출구</p>
+                  </div>
+                </div>
+              </div>
+              <!--연락처 섹션 끝-->
+              <hr>
+              <!--문의사항 섹션 시작-->
+              <div class="text-center py-5 row">
+                <div class="col-lg-9 mx-auto">
+                  <h2 class="fw-bold pb-3">문의 사항</h2>
+                  <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                  <div class="bg-warning text-start p-5">
+                    <div class="input-group">
+                      <label class="form-label" for="name">이름</label>
+                    </div>
+                    <div class="input-group pb-3">
+                      <input class="form-control w-100 bg-transparent border-dark" type="text" id="name" name="name" placeholder="이름">
+                    </div>
+                    <div class="input-group">
+                      <label class="form-label" for="email">이메일</label>
+                    </div>
+                    <div class="input-group pb-3">
+                      <input class="form-control w-100 bg-transparent border-dark" type="text" id="emial" name="email" placeholder="email@abc.com">
+                    </div>
+                    <div class="input-group">
+                      <label class="form-label" for="questions">문의 사항</label>
+                    </div>
+                    <div class="pb-3">
+                      <textarea class="form-control form-control w-100 bg-transparent border-dark" placeholder="문의 사항을 남겨 주세요." rows="5" id="questions" name="questions"></textarea>
+                    </div>
+                    <div class="form-check pb-3">
+                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                      <label class="form-check-label" for="flexCheckChecked">
+                        이젠 인테리어 뉴스레터 받아보기
+                      </label>
+                    </div>
+                    <div>
+                      <button class="btn btn-dark">전송하기</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--문의사항 섹션 끝-->
+              <hr>
+              <!--오시는길 시작-->
+              <div class="text-center py-5">
+                <h2 class="fw-bold pb-3">오시는 길</h2>
+                <p class="text-muted">주소:Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                <!-- <img src="./images/map.PNG" alt="map" class="img-fluid"> -->
+                <div class="ratio ratio-16x9">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.1863006540016!2d127.12711581213392!3d37.432703471957055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca883df7418d1%3A0x1e9926ba0f71d15c!2z7J207KCgSVTsu7Ttk6jthLDslYTsubTrjbDrr7g!5e0!3m2!1sko!2skr!4v1741749911770!5m2!1sko!2skr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+              </div>
+              <!--오시는길 끝-->
+            </section>
+            <!--포트폴리오 섹션 끝-->
+        </div>
+    </main>
+    <!--메인 끝-->
+    <!-- 푸터 영역 시작 -->
+    <footer class="bg-dark text-white text-center p-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 p-3">
+            <a href="./index.html" class="logo-font link-light text-decoration-none fs-5">
+              <img src="./images/logo.png" alt="logo" class="img-fluid my-3">이젠 인테리어
+            </a>
+            <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam rerum dignissimos maiores, reprehenderit iste ipsum?</p>
+          </div>
+          <div class="col-lg-4 p-3">
+            <h5>About Us</h5>
+            <ul class="list-unstyled">
+              <li><a href="./profile.html" class="link-light link-underline-opacity-0">프로필</a></li>
+              <li><a href="./private-interior.html" class="link-light link-underline-opacity-0">프라이빗 인테리어</a></li>
+              <li><a href="./business-interior.html" class="link-light link-underline-opacity-0">비즈니스 인테리어</a></li>
+              <li><a href="./contact.html" class="link-light link-underline-opacity-0">연락처</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 p-3">
+            <h5>소셜 미디어</h5>
+            <ul class="list-unstyled">
+              <li>유투브</li>
+              <li>블로그</li>
+              <li>인스타그램</li>
+              <li>페이스북</li>
+            </ul>
+          </div>
+        </div>
+        <p class="my-3"><i class="bi bi-c-circle"></i> ALL RIGHT RESERVED BY <span class="text-info logo-font">이젠 인테리어</span></p>
+      </div>
+    </footer>
+    <!-- 푸터 영역 끝 -->
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+</html>
